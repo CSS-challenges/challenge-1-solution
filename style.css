@@ -49,10 +49,10 @@ div.container {
 
 /***** Header ******/
 
-/* div#header {
+div#header {
   background-color: var(--secondary-red);
   color: var(--basic-white);
-} */
+}
 
 /***** Navbar styles ****/
 
@@ -91,7 +91,7 @@ article.card>img {
 
 article.card>button {
   background-color: var(--primary-blue);
-  color: white;
+  color: var(--basic-white);
   border: none;
   padding: 10px 20px;
   margin-top: 10px;
@@ -104,9 +104,9 @@ form>input.search-input {
   width: 100%;
   padding: 10px;
   border-radius: 10px;
-  border: 2px solid var(--light-blue);
+  border: 2px solid var(--primary-blue);
 }
 
 form>input.search-input::placeholder {
-  color: var(--light-blue);
+  color: var(--primary-blue);
 }
