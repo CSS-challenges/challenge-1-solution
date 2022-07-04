@@ -49,14 +49,14 @@ div.container {
 
 /***** Header ******/
 
-div#header {
+/* div#header {
   background-color: var(--secondary-red);
   color: var(--basic-white);
-}
+} */
 
 /***** Navbar styles ****/
 
-nav ul li a img {
+/* nav ul li a img {
   width: 50px;
 }
 
@@ -67,12 +67,12 @@ nav ul {
 }
 
 nav {
+  width: 100vw;
   padding: 20px;
   background-color: var(--basic-white);
   position: sticky;
   bottom: 0;
-  width: 100vw;
-}
+} */
 
 /***** Card styles ****/
 
@@ -100,7 +100,7 @@ article.card>button {
 
 /******* Search input *******/
 
-form>input.search-input {
+/* form>input.search-input {
   width: 100%;
   padding: 10px;
   border-radius: 10px;
@@ -109,4 +109,4 @@ form>input.search-input {
 
 form>input.search-input::placeholder {
   color: lightblue;
-}
+} */
