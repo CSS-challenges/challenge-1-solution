@@ -56,7 +56,7 @@ div.container {
 
 /***** Navbar styles ****/
 
-/* nav ul li a img {
+nav ul li a img {
   width: 50px;
 }
 
@@ -72,7 +72,7 @@ nav {
   background-color: var(--basic-white);
   position: sticky;
   bottom: 0;
-} */
+}
 
 /***** Card styles ****/
 
@@ -100,13 +100,13 @@ article.card>button {
 
 /******* Search input *******/
 
-/* form>input.search-input {
+form>input.search-input {
   width: 100%;
   padding: 10px;
   border-radius: 10px;
-  border: 2px solid lightcyan;
+  border: 2px solid var(--light-blue);
 }
 
 form>input.search-input::placeholder {
-  color: lightblue;
-} */
+  color: var(--light-blue);
+}
