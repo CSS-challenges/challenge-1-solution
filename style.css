@@ -18,6 +18,7 @@
 
 body {
   background-color: var(--basic-white);
+  margin-bottom: 100px;
 }
 
 /***** Typography ******/
@@ -63,13 +64,14 @@ nav ul li a img {
 nav ul {
   list-style-type: none;
   display: flex;
+  justify-content: space-evenly;
 }
 
 nav {
   width: 100vw;
   padding: 20px;
   background-color: var(--basic-white);
-  position: sticky;
+  position: fixed;
   bottom: 0;
 }
 
