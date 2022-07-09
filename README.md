@@ -196,7 +196,7 @@ nav {
   width: 100vw;
   padding: 20px;
   background-color: var(--basic-white);
-  position: sticky;
+  position: fixed;
   bottom: 0;
 }
 
